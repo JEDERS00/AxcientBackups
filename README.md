@@ -21,3 +21,16 @@ Or in the project path directory run
 ```
 mvnw spring-boot:run
 ```
+
+***Note***
+If you are getting next error:
+
+Error geme: javax.mail.MessagingException: sun.security.validator.ValidatorException: 
+PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: 
+unable to find valid certification path to requested target;
+  nested exception is:
+        javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: 
+		PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: 
+		unable to find valid certification path to requested target
+		
+Please disable your antivirus
