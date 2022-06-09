@@ -14,6 +14,8 @@ http://localhost:8080/
 
 
 ***STEP 3:***  **Create the AxcientBackups-0.1.0.jar and run it with next command**
+
+I developed the application with NetBeans 13, doing a Cleand and Build you can get the .jar in ...\AxcientBackups\target
 ```
 java -jar AxcientBackups-0.1.0.jar
 ```
