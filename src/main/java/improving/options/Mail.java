@@ -112,7 +112,7 @@ public abstract class Mail {
         if (StringUtils.isNotBlank(currentPath)) {
             String[] paths = currentPath.split("\\\\");
             StringBuilder pathSB = new StringBuilder(15 + id.length() + currentPath.length() + paths.length);
-            for (int position = 0; position < paths.length - 2; position++) {
+            for (int position = 0; position < paths.length; position++) {
                 pathSB.append(paths[position]).append(slash);
             }
             pathSB.append("AxcientBackup ").append(id).append(" ").append(new Utils().getDate());
